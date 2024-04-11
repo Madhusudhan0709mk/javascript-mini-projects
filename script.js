@@ -381,3 +381,14 @@ personstark.call(Person3, 'ddddd', 'dsdaadfg');
 let myfun = personstark.bind(Person3,'Madhu','lion')
 console.log(myfun)
 myfun()
+
+
+// array destructing
+
+let nums = [1,2,3];
+let [one,two,...rest] = nums;
+console.log(one)
+console.log(rest)
+
+
+
